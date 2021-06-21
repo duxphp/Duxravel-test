@@ -15,5 +15,11 @@
         "psr-4": {
             "Modules\\": "src/"
         }
+    },
+    "extra": {
+        "duxravel": {
+            "type": "app",
+            "name": "test"
+        }
     }
 }
