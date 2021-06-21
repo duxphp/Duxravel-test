@@ -1,0 +1,15 @@
+{
+    "name": "duxphp/duxravel-test",
+    "type":"duxravel-app",
+    "description": "这是一个测试应用",
+    "authors": [
+        {
+            "name": "duxphp"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4",
+        "duxphp/ravelcms": "^0.1"
+    },
+}
