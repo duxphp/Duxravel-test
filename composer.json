@@ -1,6 +1,6 @@
 {
     "name": "duxphp/duxravel-test",
-    "type":"duxravel-app",
+    "type":"library",
     "description": "这是一个测试应用",
     "authors": [
         {
@@ -12,14 +12,11 @@
         "php": ">=7.4"
     },
     "autoload": {
-        "psr-4": {
-            "Modules\\": "src/"
-        }
     },
     "extra": {
-        "duxravel": {
-            "type": "app",
-            "name": "test"
+        "installer-paths": {
+            "./testdir/test1": ["src/test1"],
+            "./testdir/test2": ["src/test2"]
         }
     }
 }
